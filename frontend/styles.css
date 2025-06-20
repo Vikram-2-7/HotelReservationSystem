@@ -3,7 +3,7 @@
 }
 
 .banner {
-    background-image: url('/images/bg.jpg');
+    background-image: url('./images/welcomee.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px 20px;
@@ -44,4 +44,12 @@
 
 .spaced-name {
   letter-spacing: 0.3em; 
+}
+h1{
+    color: aliceblue;
+}
+.title{
+    color: rgb(160, 129, 62);
+    background-color: rgb(2, 0, 0);
+
 }
