@@ -9,17 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 text-uppercase border-bottom border-light-subtle sticky-top shadow">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary py-3 text-uppercase border-bottom border-light-subtle sticky-top shadow">
       <div class="container">
         <a class="navbar-brand fs-2" href="#">H O T E L</a>
         <button
@@ -90,89 +89,65 @@
     </section>
 
     <section id="booking" class="bg-light text-center py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h4 class="pb-3 fs-2">Booking and Details</h4>
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <div class="card w-75">
-            <img
-              src="./images/bookdetails.jpg"
-              class="card-img-top"
-              alt="Booking"
-            />
-            <div class="card-body">
-              <a href="./pages/reserve.html" class="btn btn-primary btn-lg">Book Now</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-3 mb-4">
-            <div class="card h-100">
-              <img
-                src="./images/java.png"
-                class="card-img-top w-50 m-auto pt-4"
-                alt="Java"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Experienced in building Java-based backend systems.
-                </p>
-                <a href="#" class="btn btn-primary">Explore</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-3 mb-4">
-            <div class="card h-100">
-              <img
-                src="./images/py.png"
-                class="card-img-top w-50 m-auto pt-4"
-                alt="Python"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Proficient in Python scripting, AI/ML model development.
-                </p>
-                <a href="#" class="btn btn-primary">Explore</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-3 mb-4">
-            <div class="card h-100">
-              <img
-                src="./images/js.png"
-                class="card-img-top w-50 m-auto pt-4"
-                alt="JavaScript"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Skilled in JavaScript for dynamic and interactive websites.
-                </p>
-                <a href="#" class="btn btn-primary">Explore</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-3 mb-4">
-            <div class="card h-100">
-              <img
-                src="./images/jq.png"
-                class="card-img-top w-50 m-auto pt-4"
-                alt="jQuery"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  jQuery expertise for DOM manipulation and animations.
-                </p>
-                <a href="#" class="btn btn-primary">Explore</a>
-              </div>
-            </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-12 col-sm-6 col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="./images/24h.jpg" class="card-img-top mx-auto pt-3" style="height: 170px; width: 170px; object-fit: cover;" alt="Room Service" />
+          <div class="card-body p-4 text-center">
+            <h5 class="card-title fw-semibold mb-2">24/7 Room Service</h5>
+            <p class="card-text">
+              Enjoy personalized service at any hour for your utmost convenience.
+            </p>
+            <a href="#booking" class="btn btn-primary mt-2">Book Now</a>
           </div>
         </div>
       </div>
-    </section>
+
+      <div class="col-12 col-sm-6 col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="./images/clean.jpg" class="card-img-top mx-auto pt-3" style="height: 170px; width: 170px; object-fit: cover;" alt="Clean Rooms" />
+          <div class="card-body p-4 text-center">
+            <h5 class="card-title fw-semibold mb-2">Premium Hygiene</h5>
+            <p class="card-text">
+              Rooms are thoroughly sanitized daily for a clean and healthy stay.
+            </p>
+            <a href="#booking" class="btn btn-primary mt-2">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="./images/wifi.jpg" class="card-img-top mx-auto pt-3" style="height: 170px; width: 170px; object-fit: cover;" alt="Wi-Fi" />
+          <div class="card-body p-4 text-center">
+            <h5 class="card-title fw-semibold mb-2">High-Speed Wi-Fi</h5>
+            <p class="card-text">
+              Free ultra-fast internet in all rooms and public areas are available.
+            </p>
+            <a href="#booking" class="btn btn-primary mt-2">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="./images/reservation.jpg" class="card-img-top mx-auto pt-3" style="height: 170px; width: 170px; object-fit: cover;" alt="Flexible Booking" />
+          <div class="card-body p-4 text-center">
+            <h5 class="card-title fw-semibold mb-2">Flexible Reservations</h5>
+            <p class="card-text">
+              Change or cancel bookings easily to match your travel needs.
+            </p>
+            <a href="#view-bookings" class="btn btn-primary mt-2">Manage</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <section id="contact" class="bg-dark text-white py-5">
       <div class="container">
@@ -186,8 +161,7 @@
             <form
               id="contact-form"
               action="https://formspree.io/f/mzzgrolp"
-              method="POST"
-            >
+              method="POST">
               <div class="mb-3">
                 <label class="form-label">Name</label>
                 <input name="name" type="text" class="form-control" />
@@ -200,8 +174,7 @@
                   name="email"
                   type="email"
                   class="form-control"
-                  placeholder="name@example.com"
-                />
+                  placeholder="name@example.com" />
               </div>
               <div class="mb-3">
                 <label class="form-label">Feedback</label>
@@ -209,8 +182,7 @@
                   name="feedback"
                   class="form-control"
                   rows="3"
-                  placeholder="Feel free to leave us a comment..."
-                ></textarea>
+                  placeholder="Feel free to leave us a comment..."></textarea>
               </div>
               <div class="text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -230,6 +202,7 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
