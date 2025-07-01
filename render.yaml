@@ -2,5 +2,5 @@ services:
   - type: web
     name: tripnesthotels
     branch: main
-    buildCommand: ./gradlew build
-    startCommand: java -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
+    buildCommand: ""
+    startCommand: java -jar jetty-runner-9.4.44.v20210927.jar --port $PORT HotelReservationSystem.war
