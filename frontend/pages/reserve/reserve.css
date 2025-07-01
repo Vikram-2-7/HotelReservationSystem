@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+.form-section {
+  background-color: #3e3610;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+}
+
+input, select, textarea {
+  border-radius: 0.5rem !important;
+}
+
+.btn-book {
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #157347 !important;
+  color: #fff;
+}
+.card-img-top {
+  object-fit: contain;
+}
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card {
+  min-height: 400px;
+  border-radius: 12px;
+}
+
+
