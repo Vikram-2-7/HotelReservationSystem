@@ -3,4 +3,4 @@ services:
     name: tripnesthotels
     branch: main
     buildCommand: ./gradlew build
-    startCommand: java -jar build/libs/HotelReservationSystem.jar
+    startCommand: java -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
